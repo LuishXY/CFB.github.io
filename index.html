@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
-<title>Home | CFB</title>
+<title>Chicago's Fast Blast</title>
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="http://www.w3schools.com/lib/w3.css">
-
   <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
   <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+<!--Favicon-->
 
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <!--Inner HTML CSS-->
 <style type="text/css">
     *, body, html, a, p, h1,h2{
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: 'Arimo', sans-serif;
     }
   .w3-navbar{
     background: #000;
@@ -23,10 +25,47 @@
   a{
     color: #fff;
   }
+  .w3-content {
+    max-width: 850px;
+}
+button:focus {
+    background-color: rgba(5, 101, 5, 0.77);
+    color: #fff;
+}
+.w3-button:hover {
+    background-color: rgba(5, 101, 5, 0.79)!important;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+.w3-navbar li a:hover {
+    background-color: #056505;
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: rgba(0, 0, 0, 0.85)!important;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #4caf50;
+    box-shadow: 0 1px 0 0 #4caf50;
+}
+.w3-button {
+    color: #fff;
+    background-color: #000;
+    
+  }
+  .ton{
+    padding: 15px 16px;
+  }
+  .w3-black1{
+    background: #000;
+  }
+  .w3-closebtn:hover, .w3-closebtn:focus {
+    color: #4caf50;
+}
+
 
 </style>
-<body>
 
+<body>
 <!-- Navbar (sit on top) -->
 <div class="w3-top"> 
   <ul class="w3-navbar w3-wide w3-padding-8 w3-card-2">
@@ -35,7 +74,7 @@
     </li>
     <!-- Float links to the right. Hide them on small screens -->
     <li class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-left">Services</a>
+      <a href="#services" class="w3-left">Services</a>
       <a href="#about" class="w3-left">About</a>
       <a href="#contact" class="w3-left w3-margin-right">Contact</a>
     </li>
@@ -45,86 +84,181 @@
 <!-- Header -->
 <br>
 <br>
- <div class="w3-content w3-display-container">
+ <div id="home" class="w3-content w3-display-container">
 
 <div class="w3-display-container mySlides">
-  <img src="images/before1.jpg" style="width:100%">
-  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+  <img src="images/before1.JPG" alt="Concrete dustless before " style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black z-depth-5">
     Before
+  </div>
+    <div class="w3-display-bottomright w3-container w3-padding-16 w3-black">
+    Experience the power of <span style="color: #126b36">HIGH QUALITY</span> Dustless Blasting
   </div>
 </div>
 
 <div class="w3-display-container mySlides">
-  <img src="images/after1.jpg" style="width:100%">
+  <img src="images/after1.JPG" alt="Concrete dustless after" style="width:100%">
   <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
     After
   </div>
+    <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+    Extremely <span style="color: #126b36">FAST</span> Dustless Blasting service
+  </div>
 </div>
 
 <div class="w3-display-container mySlides">
-  <img src="images/before2.jpg" style="width:100%">
+  <img src="images/before2.JPG" alt="Residential dustless before" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
     Before
   </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="images/after2.jpg" style="width:100%">
-  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
-    After
+    <div class="w3-display-bottomright w3-container w3-padding-16 w3-black">
+    Most <span style="color: #126b36">ENVIORNMENTALLY FRIENDLY</span> Dustless Blasting process
   </div>
 </div>
 
+<div class="w3-display-container mySlides">
+  <img src="images/after2.JPG" alt="Residential dustless after" style="width:100%">
+  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    After
+  </div>
+    <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+    Get an estimate <span style="color: #126b36">FREE</span> today 224-308-7667
+  </div>
 </div>
-
-<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-
-</div>
+</div> <!-- END CONTAINER-->
+<button class="w3-button w3-display-left w3-black ton" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black ton" onclick="plusDivs(1)">&#10095;</button>
 
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
   <!-- Services Section -->
-
-  <div class="w3-container w3-padding-32" id="projects">
+  <div class="w3-container w3-padding-32" id="services">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Services</h3>
-
     </div>
   </div>
 
-
+  <!--Auto Sec-->
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Auto Restoration</div>
         <img src="images/auto1.JPG" alt="Car Axle after dustless blasting" style="width:100%">        
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
+          <p>Dustless blasting is a great auto sandblasting alternative for paint and rust removal from vehicles. Its less hazardous to the environment and the operator, super fast and leaves you with a surface ready to paint</p>
+      <p><button class="w3-button w3-block" onclick="document.getElementById('id01').style.display='block'">Contact</button></p>
+  <!--Auto Modal-->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-bottom">
+      <header class="w3-container w3-black"> 
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn">&times;</span>
+        <h2>Auto Restoration</h2>
+      </header>
+      <div class="w3-container">
+        <p>Dustless blasting uses water, no heat is involved allowing surfaces to stay cool,  smooth and straight Dustless blasting uses recycled bottle glass  – zero free silica, no heat, no dust plume, and is harmless to humans and plant life. A whole lot less messy too!</p>
+Chicago's Fast Blast offers mobile dustless blasting services. Our professional team will have your vehicle surfaces rust free and paint ready in no time right from your shop, garage or driveway.
+
+There is no faster auto sandblasting alternative!</p>
+<div class="w3-modal-content w3-center" style="display: inline;">
+          <img src="images/auto2.JPG" alt="Car Axle Before dustless blasting" height="240px" width="300px">
+          <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">Before</div>
+        </div>
+<div class="w3-modal-content w3-center" style="display: inline;">          
+<img src="images/auto1.JPG" alt="Car Axle Before dustless blasting" height="240px" width="300px">
+          <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">After</div></div>
+      </div>
+      <footer class="w3-container w3-black">
+      <p><a href="#contact" style="color:#126b36;">Contact</a> us or call us today!</p> 
+      </footer>
+    </div>
+  </div>
       </div>
     </div>
+  <!--Wood Sec-->
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Wood Restoration</div>
-        <img src="images/wood1.JPG" alt="House" style="width:100%">
-                  <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
+        <img src="images/wood1.JPG" alt="Wood deck after dustless blasting" style="width:100%">
+                  <p>Dustless Blasting is excellent for the removal of paint, polyurethane, lacquer, stain and any other coating from wood quickly and easily. Even old wood can be made to look brand new</p>
+      <p><button class="w3-button w3-block" onclick="document.getElementById('id02').style.display='block'" class="w3-button">Contact</button></p>
+  <!--Wood Modal-->
+<div id="id02" class="w3-modal">
+    <div class="w3-modal-content w3-animate-bottom">
+      <header class="w3-container w3-black"> 
+        <span onclick="document.getElementById('id02').style.display='none'" class="w3-closebtn">&times;</span>
+        <h2>Wood Resoration</h2>
+      </header>
+      <div class="w3-container">
+        <p>Dustless Blasting allows you to to use a wide range of different abrasives, and lets you adjust the blast pressure and abrasive flow according to your needs. </p>
+        <p>Dustless Blasting is safest on hard woods, however using finer blast media and lower pressures may allow you to blast softer woods without damage as well. Experiment on a non-critical piece of wood to see how blasting affects the wood's texture and grain</p>
+
+      <div class="w3-modal-content w3-center" style="display: inline;">
+          <img src="images/auto2.JPG" alt="Car Axle Before dustless blasting" height="240px" width="300px">
+          <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">Before</div>
+        </div>
+<div class="w3-modal-content w3-center" style="display: inline;">          
+<img src="images/auto1.JPG" alt="Car Axle Before dustless blasting" height="240px" width="300px">
+          <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">After</div></div>
+      </div>
+      <footer class="w3-container w3-black">
+        <p><a href="#contact" style="color:#126b36;">Contact</a> us or call us today!</p> 
+      </footer>
+    </div>
+  </div>
       </div>
     </div>
+  <!--Paint Stripping Sec-->
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Paint Stripping</div>
-        <img src="images/progress2.JPG" alt="House" style="width:100%">
+        <img src="images/progress2.JPG" alt="Paint Stripping using dustless methods after" style="width:100%">
                   <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
+      <p><button class="w3-button w3-block" onclick="document.getElementById('id03').style.display='block'" class="w3-button">Contact</button></p>
+
+  <!--Paint Stripping Modal-->
+<div id="id03" class="w3-modal">
+    <div class="w3-modal-content w3-animate-bottom">
+      <header class="w3-container w3-black"> 
+        <span onclick="document.getElementById('id03').style.display='none'" class="w3-closebtn">&times;</span>
+        <h2>Modal Header</h2>
+      </header>
+      <div class="w3-container">
+        <p>Some text..</p>
+        <p>Some text..</p>
+      </div>
+      <footer class="w3-container w3-black">
+        <p><a href="#contact" style="color:#126b36;">Contact</a> us or call us today!</p> 
+      </footer>
+    </div>
+  </div>
       </div>
     </div>
+
+  <!--Graffiti Sec-->
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Graffiti Removal</div>
-        <img src="images/graf1.JPG" alt="House" style="width:100%">
+        <img src="images/graf1.JPG" alt="Graffiti dustless removal after " style="width:100%">
                   <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
+      <p><button class="w3-button w3-block" onclick="document.getElementById('id04').style.display='block'" class="w3-button">Contact</button></p>
+
+  <!--Graffiti Modal-->
+
+<div id="id04" class="w3-modal">
+    <div class="w3-modal-content w3-animate-bottom">
+      <header class="w3-container w3-black"> 
+        <span onclick="document.getElementById('id04').style.display='none'" 
+        class="w3-closebtn">&times;</span>
+        <h2>Modal Header</h2>
+      </header>
+      <div class="w3-container">
+        <p>Some text..</p>
+        <p>Some text..</p>
+      </div>
+      <footer class="w3-container w3-black">
+        <p><a href="#contact" style="color:#126b36;">Contact</a> us or call us today!</p> 
+      </footer>
+    </div>
+  </div>
       </div>
     </div>
   </div>
@@ -132,27 +266,27 @@
 
 
   <!-- About Section-->
-    <div class="w3-container w3-padding-32" id="projects">
+    <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">About Us</h3>
   </div>
-<div class="w3-row-padding w3-padding-64 w3-container" id="about">
-  <div class="w3-content">
+<div class="w3-row-padding w3-padding-64 w3-container" >
+  <div class="">
     <div class="w3-twothird">
-      <h1>Fast, Powerful and <br>Eco-Friendly</h1>
+      <h1>Fast, Powerful <br>and <br><span style="color:#056505;">Eco-Friendly</span></h1>
       <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
 
       <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
         laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-       <div class="w3-third w3-center">
+      <div class="w3-quarter">
       <video class="responsive-video z-depth-4"  width="640" height="360" controls>
   <source src="images/vid1.mp4" type="video/mp4">
 Your browser does not support the videos.
 </video>
     </div>
-  </div>
-</di3v>
+  </div>  
+</div>
 
 
   <!-- Surfaces Section -->
@@ -164,67 +298,51 @@ Your browser does not support the videos.
     </p>
   </div>
 
-   <div class="w3-row-padding w3-grayscale">
+   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+      <img src="images/black.jpg" alt="Black Stones Pixabay" style="width:100%">
       <h3>Black Walls & Stones</h3>
-      <p class="w3-opacity">CEO & Founder</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <img src="images/paint1.jpg" alt="Paint Stripping example" style="width:100%">
       <h3>Concrete</h3>
-      <p class="w3-opacity">Architect</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+      <img src="images/boat.jpg" alt="Boat Pixabay" style="width:100%">
       <h3>Boats</h3>
-      <p class="w3-opacity">Architect</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+      <img src="images/fence1.jpg" alt="Iron fence Pixabay" style="width:100%">
       <h3>Iron Fences</h3>
-      <p class="w3-opacity">Architect</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
     </div>
   </div>
 
 <br>
 
-  <div class="w3-row-padding w3-grayscale">
+  <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+      <img src="images/tractor.jpg" alt="Green Tractor in field Pixabay " style="width:100%">
       <h3>Tractors</h3>
-      <p class="w3-opacity">CEO & Founder</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <img src="images/trailer.jpg" alt="Trailer Pixabay" style="width:100%">
       <h3>Trailers</h3>
-      <p class="w3-opacity">Architect</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="images/pools1.JPG" alt="Mike" style="width:100%">
+      <img src="images/pool1.JPG" alt="Pool cleaned with dustless methods" style="width:100%">
       <h3>Pools</h3>
-      <p class="w3-opacity">Architect</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+      <img src="images/fountain.jpg" alt="Fountain Pixabay" style="width:100%">
       <h3>Fountains</h3>
-      <p class="w3-opacity">Architect</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-block">Contact</button></p>
     </div>
   </div>
 
@@ -256,15 +374,9 @@ Your browser does not support the videos.
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-<div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
-    <i class="fa fa-instagram w3-hover-text-purple"></i>
-    <i class="fa fa-twitter w3-hover-text-light-blue"></i>
-    <i class="fa fa-linkedin w3-hover-text-indigo"></i>
-  </div>
-
+  <i class="w3-small"><img  src="images/recycle.svg" height="50px" width="50px" ></i>
   <p>2017 Chicago's Fast Blast</p>
-  <p>Created by <a href="https://deveraxy.github.io/">DevEra</a></p>
+  <p>Created by <a href="https://devera.co" style="color:#126b36;">DevEra</a></p>
 </footer>
 
 <!-- Add Google Maps -->
@@ -305,7 +417,23 @@ function showDivs(n) {
 }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByN2NK8O9hBclLcf_zSm82e4xC_PG6cZM=myMap"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93509925-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+
 <!--
 To use this code on your website, get a free API key from Google.
 Read more at: http://www.w3schools.com/graphics/google_maps_basic.asp
